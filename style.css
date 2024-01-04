@@ -1,4 +1,6 @@
+
 body{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6,19 +8,31 @@ body{
     margin: 0;
 }
 
-.first-section,
-.header {
+.first-section{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     color: #f9faf8;
     align-items: center;
     padding: 24px 200px;
+    
 }
 
 .header-links{
     display: flex;
     gap: 16px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color:    #1F2937;
+    color: #f9faf8;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .logo {
@@ -47,6 +61,7 @@ a {
 
 .first-section{
     padding-bottom: 80px;
+    padding-top: 105px;
 }
 
 .first-section-left{
@@ -161,4 +176,5 @@ a {
     color: #f9faf8;
     padding: 32px;
     justify-content: center;
+
 }
